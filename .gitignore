@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+config/local.php
+
+# Logs
+*.log
+logs/
+
+# Upload directories
+uploads/doctors/
+uploads/users/
+uploads/testimonials/
+uploads/documents/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer
+vendor/
+composer.lock
+
+# Node (if used for build tools)
+node_modules/
+*.min.js
+*.min.css
+
+# Cache
+temp/
+cache/
